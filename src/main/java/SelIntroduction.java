@@ -7,5 +7,6 @@ public class SelIntroduction {
 //        ChromeDriver driver = new ChromeDriver(); //This can call methods that are not in WebDriver and present in chromeDriver, which will fail if we want to use Firefox or other browsers
         //Interface
         WebDriver driver = new ChromeDriver(); //This line makes sure that only the methods present in the WebDriver interface can be used
+        driver.close();
     }
 }
